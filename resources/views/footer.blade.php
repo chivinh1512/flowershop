@@ -1,5 +1,7 @@
+<br>
 <footer>
     <br>
+
     <div class="row text-center">
 
         <div class="col-2"></div>

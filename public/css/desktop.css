@@ -242,6 +242,12 @@ hr.st{
     text-align: center;
     color: pink;
 }
+.bg-pink{
+    background-color: pink!important;
+}
+.bg-pinkhv:hover{
+    background-color: pink!important;
+}
 .priceprod{
     text-align: center;
     color: #ccc;
