@@ -13,11 +13,11 @@
 
 Route::get('/','IndexController@index');
 
-Route::get('/products','ProductController@getlistproduct');
-
 Route::get('/productdetail','ProductController@getproductdetail');
 
 Route::get('/shoppingcart','ShoppingCartController@showcart');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/products/{id}','ProductController@getproductincate')->name('user.products');

@@ -77,9 +77,9 @@
                     Sản phẩm
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-{{--                        @foreach ($categories as $cate)--}}
-{{--                            <a class="dropdown-item" href="#">{{$cate->name}}</a>--}}
-{{--                        @endforeach--}}
+                        @foreach ($categories as $cate)
+                            <a class="dropdown-item" href={{ route('user.products', ['id' => $cate->id]) }}>{{$cate->name}}</a>
+                        @endforeach
                 </div>
             </li>
             <li class="nav-item">

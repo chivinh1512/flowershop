@@ -23,8 +23,6 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-
-
     <div class="bggray">
         <br><br>
         <div class="row">
